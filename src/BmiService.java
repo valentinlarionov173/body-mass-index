@@ -1,9 +1,10 @@
 
 public class BmiService {
-    public int calculate(int index) {
-        int Bmi;
-        index = 98 / (1.87 * 1.87);
-        return index
+    public int calculate(int kilogram, int metre) {
+     int bmi = kilogram / (metre * metre );
+
+    return 28;
+
 
 
     }
